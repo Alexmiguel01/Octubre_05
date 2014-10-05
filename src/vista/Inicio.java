@@ -30,9 +30,9 @@ public class Inicio extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         jbOk = new javax.swing.JButton();
-        jbSalir = new javax.swing.JButton();
         jbCancelar = new javax.swing.JButton();
         jbAceptar = new javax.swing.JButton();
+        jbSalir = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Mi Primera Ventana.....");
@@ -42,18 +42,24 @@ public class Inicio extends javax.swing.JFrame {
         jbOk.setText("OK");
         jPanel1.add(jbOk);
 
-        jbSalir.setText("SALIR");
-        jPanel1.add(jbSalir);
-
         jbCancelar.setText("CANCELAR");
         jPanel1.add(jbCancelar);
 
+        jbAceptar.setBackground(new java.awt.Color(0, 51, 255));
+        jbAceptar.setFont(new java.awt.Font("Calibri Light", 1, 72)); // NOI18N
+        jbAceptar.setForeground(new java.awt.Color(255, 255, 255));
         jbAceptar.setText("ACEPTAR");
         jPanel1.add(jbAceptar);
 
+        jbSalir.setBackground(new java.awt.Color(0, 51, 255));
+        jbSalir.setFont(new java.awt.Font("Calibri Light", 1, 72)); // NOI18N
+        jbSalir.setForeground(new java.awt.Color(255, 255, 255));
+        jbSalir.setText("SALIR");
+        jPanel1.add(jbSalir);
+
         getContentPane().add(jPanel1, java.awt.BorderLayout.CENTER);
 
-        setSize(new java.awt.Dimension(578, 306));
+        setSize(new java.awt.Dimension(697, 306));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
