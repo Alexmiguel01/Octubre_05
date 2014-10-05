@@ -39,9 +39,15 @@ public class Inicio extends javax.swing.JFrame {
 
         jPanel1.setLayout(new java.awt.GridLayout(2, 2, 10, 10));
 
+        jbOk.setBackground(new java.awt.Color(51, 204, 255));
+        jbOk.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
+        jbOk.setForeground(new java.awt.Color(102, 102, 255));
         jbOk.setText("OK");
         jPanel1.add(jbOk);
 
+        jbCancelar.setBackground(new java.awt.Color(51, 204, 255));
+        jbCancelar.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
+        jbCancelar.setForeground(new java.awt.Color(102, 102, 255));
         jbCancelar.setText("CANCELAR");
         jPanel1.add(jbCancelar);
 
